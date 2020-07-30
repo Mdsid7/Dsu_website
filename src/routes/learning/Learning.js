@@ -104,7 +104,7 @@ export class Home extends React.Component {
         </p>
        
       </header>
-     <Image src={Classroom} alt = "Classroom" className ="home-learning-image" onClick={() => "https://github.com/MythriJL/Library_template/blob/master/src/routes/home/Home.js"} fluid/>
+     <Image src={Classroom} alt = "Classroom" className ="home-learning-image" fluid/>
      <Image src={Cds} alt = "Cds" className ="home-learning-image"fluid />
      <Image src={Corporate} alt = "Corporate" className ="home-learning-image"fluid />
      <Image src={Access} alt = "Access" className ="home-learning-image"fluid />
