@@ -32,6 +32,7 @@ export class Learning extends React.Component {
         <p>
           LEARNING RESOURCES
         </p>
+<<<<<<< HEAD
         </header>
       <a href= 'https://stackoverflow.com/questions/47839856/image-onclick-failing-in-react/52554318'>
      <Image src={Classroom} alt = "Classroom" className ="home-learning-image" fluid/>
@@ -46,6 +47,13 @@ export class Learning extends React.Component {
      </a>
 
      <a href= 'https://www.microsoft.com/en-in/microsoft-365/access'>
+=======
+       
+      </header>
+     <Image src={Classroom} alt = "Classroom" className ="home-learning-image" fluid/>
+     <Image src={Cds} alt = "Cds" className ="home-learning-image"fluid />
+     <Image src={Corporate} alt = "Corporate" className ="home-learning-image"fluid />
+>>>>>>> 6ab5ea6b282a445bd2167142c0cc27ea74f92934
      <Image src={Access} alt = "Access" className ="home-learning-image"fluid />
      </a>
 
@@ -99,4 +107,11 @@ export class Learning extends React.Component {
         
     }
 }
+<<<<<<< HEAD
 export default Learning;
+=======
+function Schools(){
+  return(
+  <div>School Page</div>
+  )}
+>>>>>>> 6ab5ea6b282a445bd2167142c0cc27ea74f92934
