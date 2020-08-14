@@ -39,3 +39,7 @@ height:1000x;
     transform: rotate(360deg);
   }
 }
+
+.body-section {
+  margin-top: 12vh;
+}

@@ -1,19 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Image from 'react-bootstrap/Image'
 import nav_logo from './nav-logo.jpg';
-
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route,	
+ 
 } from "react-router-dom";
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap"
-import { Home } from './routes/learning/Learning';
-import { AboutUS } from './routes/aboutus';
+import {Navbar, Nav, Form, Button} from "react-bootstrap"
+import { Learning } from './routes/learning/Learning';
+import { Ejournal } from './routes/ejournal/Ejournal';
+import { Ebook } from './routes/ebook/Ebook';
+
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
               <Navbar.Brand href="/"><Image src={nav_logo} height = "50px" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="ml-auto">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/schools">Schools</Nav.Link>
@@ -43,50 +43,22 @@ function App() {
 
             {/* A <Switch> looks through its children <Route>s and
                 renders the first one that matches the current URL. */}
-            <Switch>
-              <Route path="/about">
-                <AboutUS />
-              </Route>
-              <Route path="/schools">
-                <Schools />
-              </Route>
-              <Route path = "/downloads">
-                  <Downloads />
-               </Route>
-              <Route path = "/learning">
-                 <learning />
-              </Route>
-              <Route path = "/login">
-                   <login />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
+           
+          <Switch>  
 
-
+                <Route path = "/ejournal" exact component = {Ejournal} />
+                <Route path = "/ebook" exact component = {Ebook} />
+                <Route path = "/login" exact>
+					     	<login />
+					</Route>
+                <Route path="/" exact component = {Learning} />
             </Switch>
           </div>
+         
         </Router>
   );
 }
-
-
-
 export default App;
 
 
 
-function login(){
-return(
-<div>login page</div>
-)}
-
-function Schools(){
-return(
-<div>School Page</div>
-)}
-
-function Downloads(){
-return(
-<div>Downloads page</div>
-)}

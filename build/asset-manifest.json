@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Library_template/static/css/main.37b8e90f.chunk.css",
+    "main.js": "/Library_template/static/js/main.984c199a.chunk.js",
+    "main.js.map": "/Library_template/static/js/main.984c199a.chunk.js.map",
+    "runtime-main.js": "/Library_template/static/js/runtime-main.4ca8f9e9.js",
+    "runtime-main.js.map": "/Library_template/static/js/runtime-main.4ca8f9e9.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/Library_template/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.ddf92868.chunk.js": "/Library_template/static/js/2.ddf92868.chunk.js",
+    "static/js/2.ddf92868.chunk.js.map": "/Library_template/static/js/2.ddf92868.chunk.js.map",
+    "index.html": "/Library_template/index.html",
+    "precache-manifest.2319bcbcb97ffd0fe44fa3c679e679cd.js": "/Library_template/precache-manifest.2319bcbcb97ffd0fe44fa3c679e679cd.js",
+    "service-worker.js": "/Library_template/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/Library_template/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.37b8e90f.chunk.css.map": "/Library_template/static/css/main.37b8e90f.chunk.css.map",
+    "static/js/2.ddf92868.chunk.js.LICENSE.txt": "/Library_template/static/js/2.ddf92868.chunk.js.LICENSE.txt",
+    "static/media/Cds.png": "/Library_template/static/media/Cds.6b4b3bd5.png",
+    "static/media/Classroom.png": "/Library_template/static/media/Classroom.627199f6.png",
+    "static/media/Corporate.png": "/Library_template/static/media/Corporate.8368ccd2.png",
+    "static/media/Dspace.png": "/Library_template/static/media/Dspace.e5e67be9.png",
+    "static/media/Ebook.png": "/Library_template/static/media/Ebook.09468d8e.png",
+    "static/media/Link.png": "/Library_template/static/media/Link.7e4602b7.png",
+    "static/media/OPAC.png": "/Library_template/static/media/OPAC.305eec61.png",
+    "static/media/ejournals.jpg": "/Library_template/static/media/ejournals.e5cd8a58.jpg",
+    "static/media/national.png": "/Library_template/static/media/national.18df2bd6.png",
+    "static/media/nav-logo.jpg": "/Library_template/static/media/nav-logo.d570712b.jpg",
+    "static/media/nptl.jpg": "/Library_template/static/media/nptl.8e25d3a2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ca8f9e9.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.ddf92868.chunk.js",
+    "static/css/main.37b8e90f.chunk.css",
+    "static/js/main.984c199a.chunk.js"
+  ]
+}
