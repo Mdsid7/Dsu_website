@@ -16,6 +16,7 @@ export class Ebook extends React.Component {
   render() {
     const content = {
       aTab: 
+      
       <Table striped bordered hover variant="dark" className = "cd-table" >
       <thead>
           <tr>
@@ -178,36 +179,224 @@ export class Ebook extends React.Component {
           <tr>
               <td>1</td>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">An introduction to business research methods</td></a>
-              <td>Joe Martelli</td>		
-              <td>BookBoon</td>
-              <td>2nd Ed.</td>
-              <td>137</td>
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
               <td></td>
           </tr>
           <tr>
               <td>2</td>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">International Financial reporting</td></a>
-              <td>William von Hagen</td>		
-              <td>BookBoon</td>
-              <td>1st Ed.</td>
-              <td>54</td>
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
               <td></td>
           </tr>
           <tr>
               <td>3</td>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Managing the human resource in the 21st Century</td></a>
-              <td>Zorlu Senyucel</td>		
-              <td>BookBoon</td>
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
               <td></td>
-              <td>77</td>
+          </tr>
+          <tr>
+              <td>4</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>5</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>6</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>7</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>8</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>9</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>10</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>11</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>12</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
               <td></td>
           </tr>
           </tbody>
         </Table> ,
+      
       cTab: 
+      <Table striped bordered hover variant="dark" className = "cd-table" >
+      <thead>
+          <tr>
+              <th>Sl. No.</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Publisher</th>
+              <th>Edition</th>
+              <th>Pages</th>
+              <th>Remarks</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>1</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>4</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>5</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>6</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>7</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>8</td>
+              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
+              <td class="text-white">Beginning Java Script</td></a>
+              <td>Wilton Paul</td>		
+              <td>Wiley</td>
+              <td>4th Ed.</td>
+              <td>793</td>
+              <td></td>
+          </tr>
+          </tbody>
+        </Table> ,
+      
+      dTab: 
       <Table striped bordered hover variant="dark" className = "cd-table" >
       <thead>
           <tr>
@@ -253,102 +442,6 @@ export class Ebook extends React.Component {
           </tr>
           </tbody>
         </Table> ,
-      dTab: 
-      <Table striped bordered hover variant="dark" className = "cd-table" >
-      <thead>
-          <tr>
-              <th>Sl. No.</th>
-              <th>Title</th>
-              <th>Author</th>
-              <th>Publisher</th>
-              <th>Edition</th>
-              <th>Pages</th>
-              <th>Remarks</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr>
-              <td>1</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>1</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          </tbody>
-        </Table> ,
       eTab: 
       <Table striped bordered hover variant="dark" className = "cd-table" >
       <thead>
@@ -366,127 +459,38 @@ export class Ebook extends React.Component {
           <tr>
               <td>1</td>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>1</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
+              <td class="text-white">An introduction to business research methods</td></a>
+              <td>Joe Martelli</td>		
+              <td>BookBoon</td>
+              <td>2nd Ed.</td>
+              <td>137</td>
               <td></td>
           </tr>
           <tr>
               <td>2</td>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
+              <td class="text-white">International Financial reporting</td></a>
+              <td>William von Hagen</td>		
+              <td>BookBoon</td>
+              <td>1st Ed.</td>
+              <td>54</td>
               <td></td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>3</td>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
+              <td class="text-white">Managing the human resource in the 21st Century</td></a>
+              <td>Zorlu Senyucel</td>		
+              <td>BookBoon</td>
               <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
-              <td class="text-white">Beginning Java Script</td></a>
-              <td>Wilton Paul</td>		
-              <td>Wiley</td>
-              <td>4th Ed.</td>
-              <td>793</td>
+              <td>77</td>
               <td></td>
           </tr>
           </tbody>
         </Table> ,
       fTab: 
-      <Table striped bordered hover variant="dark" className = "cd-table" >
+      <div class="table-responsive">
+      <Table  striped bordered hover variant="dark" className = "cd-table" >
       <thead>
           <tr>
               <th>Sl. No.</th>
@@ -500,7 +504,7 @@ export class Ebook extends React.Component {
       </thead>
       <tbody>
           <tr>
-              <td>1</td>
+              <th scope="row">1</th>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
               <td class="text-white">Beginning Java Script</td></a>
               <td>Wilton Paul</td>		
@@ -510,7 +514,7 @@ export class Ebook extends React.Component {
               <td></td>
           </tr>
           <tr>
-              <td>1</td>
+              <th scope="row">2</th>
               <a href="http://125.234.102.27/bitstream/TVDHBRVT/15778/1/An-introduction-to-Business-Research-Methods.pdf">
               <td class="text-white">Beginning Java Script</td></a>
               <td>Wilton Paul</td>		
@@ -520,19 +524,20 @@ export class Ebook extends React.Component {
               <td></td>
           </tr>
           </tbody>
-        </Table> ,
+        </Table> 
+        </div>,
     };
       return (
           <>
         <br></br>  
         <br></br>
-        <div className="App">
-      <header className="App-header">
+        <div className="App"></div>
+      <div className="App-header">
         
         <p>
           E-BOOK
         </p>
-        </header>
+        
        </div> 
        <br></br><br></br>
         <div style={styles}>
@@ -541,13 +546,12 @@ export class Ebook extends React.Component {
   active={this.state.active}
   onChange={active => this.setState({active})}
 >
-   
  <div key="aTab">COMPUTER SCIENCE  </div>
-  <div key="bTab">COMMERCE & MANAGEMENT</div>
-  <div key="cTab">ELECTRONICS</div>
+  <div key="bTab">MECHANICAL</div>
+  <div key="cTab">COMMERCE AND MANAGEMENT</div>
   <div key="dTab">MATHEMATICS</div>
-  <div key="eTab">MECHANICAL</div>
-  <div key="fTab">GENERAL STUDY</div>
+  <div key="eTab">GENERAL STUDY  </div>
+  <div key="fTab">ELECTRICALS</div>
 </Tab>
 
 

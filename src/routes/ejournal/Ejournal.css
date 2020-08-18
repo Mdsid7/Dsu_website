@@ -1,19 +1,23 @@
 .App {
     text-align: center;
+    background-color: white;
+    height:2.5rem;
   }
   
   
   .App-header {
     background-color: #810725;
-    min-height: 45vh;
+    min-height: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(40px + 7vmin);
     color: white;
+    padding:5 rem;
+    
   }
-
+  @media screen and (min-width:601px) {
   .Rectangle {
     position: absolute;
     background-color:rgb(228, 224, 224);
@@ -22,25 +26,58 @@
     height: 85rem;
     margin-left: 10%;
     width: 70rem;
-   
   }
-
+}
+@media screen and (max-width:600px) {
+  .Rectangle {
+    position: absolute;
+    background-color:rgb(228, 224, 224);
+    border-radius: 20px;
+    opacity: 90%;
+    height: 85rem;
+    margin-left: 3%;
+    width: 22rem;
+  }
+}
+  @media screen and (min-width:601px) {
+    .Box {
+      position: relative;
+      background-color:rgb(173, 170, 170);
+      height: 3rem;
+      width: 68rem;
+      margin-left: 1%;
+    }
+  }
+   @media screen and (max-width:600px) {
   .Box {
     position: relative;
     background-color:rgb(173, 170, 170);
     height: 3rem;
-    width: 68rem;
-    margin-left: 1%;
-   
+    width: 21rem;
+    margin-left: 2%;
   }
+}
 
+
+@media screen and (min-width:601px) {
   .text {
     position:relative;
-    font-size: 25px;
+    font-size: 20px;
     top : 10px;
+    color: black;
     left: 30px;
   }
-
+} 
+@media screen and (max-width:600px) {
+  .text {
+    position:relative;
+    font-size: 13px;
+    top : 16px;
+    color: black;
+    left: 15px;
+  }
+} 
+@media screen and (min-width:601px) {
   .Rectangle1 {
     position: absolute;
     background-color:rgb(228, 224, 224);
@@ -50,7 +87,19 @@
     margin-left: 10%;
     width: 70rem;
   }
-
+}  
+@media screen and (max-width:600px) {
+  .Rectangle1 {
+    position: absolute;
+    background-color:rgb(228, 224, 224);
+    border-radius: 20px;
+    opacity: 90%;
+    height: 143rem;
+    margin-left: 3%;
+    width: 22rem;
+  }
+}
+@media screen and (min-width:601px) {
   .Rectangle2 {
     position: absolute;
     background-color:rgb(228, 224, 224);
@@ -59,9 +108,20 @@
     height: 31rem;
     margin-left: 10%;
     width: 70rem;
-   
   }
-
+}  
+@media screen and (max-width:600px) {
+  .Rectangle2 {
+    position: absolute;
+    background-color:rgb(228, 224, 224);
+    border-radius: 20px;
+    opacity: 90%;
+    height: 31rem;
+    margin-left: 3%;
+    width: 22rem;
+  }
+}  
+@media screen and (min-width:601px) {
   .Rectangle3 {
     position: absolute;
     background-color:rgb(228, 224, 224);
@@ -70,9 +130,20 @@
     height: 26rem;
     margin-left: 10%;
     width: 70rem;
-   
   }
-
+}
+@media screen and (max-width:600px) {
+  .Rectangle3 {
+    position: absolute;
+    background-color:rgb(228, 224, 224);
+    border-radius: 20px;
+    opacity: 90%;
+    height: 26rem;
+    margin-left: 3%;
+    width: 22rem;
+  }
+}
+@media screen and (min-width:601px) {
   .Rectangle4 {
     position: absolute;
     background-color:rgb(228, 224, 224);
@@ -81,9 +152,19 @@
     height: 13rem;
     margin-left: 10%;
     width: 70rem;
-   
   }
-  
+}  
+@media screen and (max-width:600px) {
+  .Rectangle4 {
+    position: absolute;
+    background-color:rgb(228, 224, 224);
+    border-radius: 20px;
+    opacity: 90%;
+    height: 13rem;
+    margin-left: 3%;
+    width: 22rem;
+  }
+}    
 
 
   

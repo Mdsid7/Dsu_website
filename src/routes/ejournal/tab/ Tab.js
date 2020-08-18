@@ -2,10 +2,6 @@ import React from 'react';
 // import {findDOMNode} from 'react-dom';
 
 import './Tab.css';
-
-const transitionTime = 200;
-const transitionStyle = `left ${transitionTime}ms, right ${transitionTime}ms`;
-
 export class Tab extends React.Component {
   constructor(props) {
     super(props);
@@ -67,27 +63,10 @@ export class Tab extends React.Component {
             </div>
           );
         })}
-        <div
-          className="Tabs__Underline"
-          style={this.getUnderlineStyle()}
-        />
+        
       </div>
     );
   }
 
-  getUnderlineStyle() {
-    if (this.props.active == null || Object.keys(this.state.sizes).length === 0) {
-      return {left: '0', right: '100%'};
-    }
-
-    const size = this.state.sizes[this.props.active];
-
-    return {
-      left: `${size.left}px`,
-      right: `${size.right}px`,
-      transition: transitionStyle,
-    }
-  }
 }
-
 export default Tab;

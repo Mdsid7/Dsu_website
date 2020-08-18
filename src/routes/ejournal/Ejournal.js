@@ -18,10 +18,11 @@ const styles = {
       const  content = {
         aTab: <div className='Rectangle' >
               <br></br><br></br> 
-              <header   className='Box'>    
+              <header   className='Box'>   
+              <a href= "http://globalimpactfactor.com/iosr-journal-of-mechanical-and-civil-engineering/">
               <h1 className='text'>  
               IOSR Journal of Mechanical & Civil Engineering  
-              </h1>
+              </h1></a>
               </header>
               <br></br>
               <header   className='Box'>
@@ -149,7 +150,7 @@ const styles = {
               <br></br>
               <header className='Box'>
               <h1 className='text'> 
-              IOEI: Series-B Electrical Electronics communication
+            IOEI:Series-B Electrical Electronic communication
               </h1> 
               </header>
               <br></br>
@@ -514,13 +515,13 @@ const styles = {
             <>
         <br></br>  
         <br></br>
-        <div className="App">
-      <header className="App-header">
+        <div className="App"></div>
+      <div className="App-header">
         
         <p>
           E-JOURNAL
         </p>
-        </header>
+        
         </div>
         <br></br>
         <br></br>
@@ -530,9 +531,8 @@ const styles = {
           active={this.state.active}
           onChange={active => this.setState({active})}
         >
-          <span></span><span></span> 
-         <div key="aTab">MECHANICAL</div>
-          <div key="bTab">ELECTRONICS </div>
+          <div key="aTab">MECHANICAL  </div>
+          <div key="bTab">ELECTRONICS & COM </div>
           <div key="cTab">COMPUTER SCIENCE</div>
           <div key="dTab">BASIC SCIENCE</div>
           <div key="eTab">EMBEDDED SYSTEMS</div>

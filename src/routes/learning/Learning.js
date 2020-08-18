@@ -6,15 +6,15 @@ import Corporate from './Corporate.png'
 import Access from './Access.jpg'
 import Nptl from './nptl.jpg'
 import Dspace from './Dspace.png'
-import Linki from './Link.png'
+import link from './Link.png'
 import Ebook from './Ebook.png'
 import National from './national.png'
 import Opac from './OPAC.png'
 import Ejournals from './ejournals.jpg'
 import Moodle from './Moodle.jpeg';
-import database from './database.png';
-import digimat from './digimat.jpeg';
-
+import Database from './database.png';
+import Digimat from './digimat.jpeg';
+import {Link,} from "react-router-dom";
 import {Image } from 'react-bootstrap'
 
 import './Learning.css';
@@ -26,14 +26,15 @@ export class Learning extends React.Component {
             <>
         <br></br>  
         <br></br>
-        <div className="App">
-      <header className="App-header">
+        <div className="App"></div>
+      <div className="App-header">
         
         <p>
-          LEARNING RESOURCES
+          Learning Resources
         </p>
 
-        </header>
+       </div> 
+       <br></br>
       <a href= 'https://stackoverflow.com/questions/47839856/image-onclick-failing-in-react/52554318'>
      <Image src={Classroom} alt = "Classroom" className ="home-learning-image" fluid/>
      </a>
@@ -63,12 +64,12 @@ export class Learning extends React.Component {
      </a>
 
      <a href= 'https://new.knimbus.com/#/'>
-     <Image src={Linki} alt = "Link" className ="home-learning-image"fluid />
+     <Image src={link} alt = "Link" className ="home-learning-image"fluid />
      </a>
 
-     <a href= 'https://new.knimbus.com/#/'>
+     <Link to="/ebook">
      <Image src={Ebook} alt = "Ebook" className ="home-learning-image"fluid />
-     </a>
+     </Link>
 
      <a href= 'https://ndl.iitkgp.ac.in/'>
      <Image src={National} alt = "National" className ="home-learning-image"fluid />
@@ -78,23 +79,22 @@ export class Learning extends React.Component {
      <Image src={Opac} alt = "Opac" className ="home-learning"fluid />
      </a>
 
-     <a href= '/Ejournals'>
+     <Link to="/ejournal">
      <Image src={Ejournals} alt = "Ejournals" className ="home-learning-image"fluid />
-     </a>
+     </Link>
 
      <a href= 'https://moodle.org/'>
      <Image src={Moodle} alt = "Moodle" className ="home-learning-image"fluid />
      </a>
 
      <a href= 'https://moodle.org/'>
-     <Image src={database} alt = "database" className ="home-learning"fluid />
+     <Image src={Database} alt = "database" className ="home-learning"fluid />
      </a>
 
      <a href= 'https://new.knimbus.com/#/'>
-     <Image src={digimat} alt = "digimat" className ="home-learning-image"fluid />
+     <Image src={Digimat} alt = "digimat" className ="home-learning-image"fluid />
      </a>
 
-    </div> 
   </>         
         )
         

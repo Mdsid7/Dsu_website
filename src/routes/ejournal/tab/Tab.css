@@ -10,6 +10,7 @@
     font-style: solid bold;
     color:solid black;
     cursor: pointer;
+    margin-left: 1%;
   }
   
   .Tabs__Tab:hover, .Tabs__Tab--active {
@@ -17,9 +18,4 @@
     color: white;
   }
   
-  .Tabs__Underline {
-    position: absolute;
-    
-    border-bottom: 3px solid purple;
-  }
- 
+  
