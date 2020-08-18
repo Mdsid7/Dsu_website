@@ -35,21 +35,21 @@ export class Learning extends React.Component {
 
        </div> 
        <br></br>
-      <a href= 'https://stackoverflow.com/questions/47839856/image-onclick-failing-in-react/52554318'>
+       <Link to="/ebook">
      <Image src={Classroom} alt = "Classroom" className ="home-learning-image" fluid/>
-     </a>
+     </Link>
      
-     <a href= 'https://www.microsoft.com/en-in/microsoft-365/access'>
+     <Link to="/ebook">
      <Image src={Cds} alt = "Cds" className ="home-learning-image" fluid />
-     </a>
+     </Link>
 
-     <a href= 'https://new.knimbus.com/#/'>
+     <Link to="/ebook">
      <Image src={Corporate} alt = "Corporate" className ="home-learning-image" fluid />
-     </a>
-     <a href= 'https://www.microsoft.com/en-in/microsoft-365/access'>
+     </Link>
+    
+     <Link to="/ebook">
      <Image src={Access} alt = "Access" className ="home-learning-image"fluid />
-     </a>
-
+     </Link>
 
      <a href= 'https://new.knimbus.com/#/'>
      <Image src={Knimbus} alt = "Knimbus" className ="home-learning-image"fluid /> 
@@ -63,9 +63,9 @@ export class Learning extends React.Component {
      <Image src={Dspace} alt = "Dspace" className ="home-learning-image"fluid />
      </a>
 
-     <a href= 'https://new.knimbus.com/#/'>
+     <Link to="/ebook">
      <Image src={link} alt = "Link" className ="home-learning-image"fluid />
-     </a>
+     </Link>
 
      <Link to="/ebook">
      <Image src={Ebook} alt = "Ebook" className ="home-learning-image"fluid />
@@ -75,9 +75,9 @@ export class Learning extends React.Component {
      <Image src={National} alt = "National" className ="home-learning-image"fluid />
      </a>
 
-     <a href= 'https://new.knimbus.com/#/'>
+     <Link to="/ebook">
      <Image src={Opac} alt = "Opac" className ="home-learning"fluid />
-     </a>
+     </Link>
 
      <Link to="/ejournal">
      <Image src={Ejournals} alt = "Ejournals" className ="home-learning-image"fluid />
