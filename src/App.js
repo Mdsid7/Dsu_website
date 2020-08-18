@@ -54,7 +54,7 @@ function App() {
                 <Route path="/" exact component = {Learning} />
             </Switch>
           </div>
-         
+          
         </Router>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Ejournal.css';
 import Switch from 'react-bootstrap/esm/Switch';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import { Tab } from './tab/ Tab.js';
 
 const styles = {
@@ -541,16 +541,16 @@ const styles = {
         
        
       
-      <br></br>
-      <p>{content[this.state.active]}</p>
-      </div>
+    <br></br>
+    <p>{content[this.state.active]}</p>
+    </div>
      
       <Switch>
               <Route path="/tab">
                 <Tab />
               </Route>
         </Switch> 
-        <Link to="/ebook"></Link>
+       
   </>   
   
         )
